@@ -1,0 +1,121 @@
+/* Background styling */
+.background {
+  content: "";
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/signinup.png) left no-repeat;
+  background-color: #EBEBEB;
+  opacity: 0.95;
+  z-index: -1;
+}
+
+/* Form container styling */
+.form-container {
+  position: relative;
+  width: 560px;
+  margin: 100px auto;
+  margin-right: 160px;
+  background: #EBEBEB;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form header styling */
+.form-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Form toggle button styling */
+.form-toggle-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #811D1D;
+  background: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+}
+
+/* Active form toggle button styling */
+.form-toggle-button.active {
+  border-bottom: 3px solid #BEB88A;
+}
+
+/* Hidden class for hiding elements */
+.hidden {
+  display: none;
+}
+
+/* Form subsection styling */
+.form-subsection {
+  margin-bottom: 20px;
+}
+
+/* Form subsection title styling */
+.form-subsection h3 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #1F1F1F;
+}
+
+/* Form subsection subtitle styling */
+.form-subsection p {
+  font-size: 16px;
+  color: #1F1F1F;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Form group label styling */
+.form-group label {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1F1F1F;
+}
+
+/* Form input styling */
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #D0C886;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Form checkbox styling */
+.form-group input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+/* Submit button styling */
+.submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.88);
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+}

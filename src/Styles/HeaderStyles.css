@@ -1,0 +1,59 @@
+/* Navbar */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.808);
+  color: #fff;
+  padding: 10px 20px; /* Adding padding to give more space */
+  display: flex;
+  align-items: center; /* Vertically center items */
+  justify-content: space-between; /* Space out items */
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center; /* Vertically center logo */
+  
+}
+
+.logo img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+  
+}
+
+/* Navigation */
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Display links horizontally */
+  align-items: center; /* Vertically center links */
+}
+
+.nav-links li {
+  margin-right: 20px; /* Adjust the spacing between menu items */
+}
+
+.nav-links li:last-child {
+  margin-right: 0; /* Remove margin from the last menu item */
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Navigation */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    flex-direction: column; /* Stack links vertically */
+  }
+
+  .nav-links li {
+    margin-bottom: 10px; /* Add spacing between menu items on small screens */
+  }
+}
